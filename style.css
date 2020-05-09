@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+    text-align: center;
+    background-repeat:no-repeat;
+}
+
+h1{
+    color: white;
+    font-weight: normal;
+    font-family: 'Passion One', cursive;
+    font-size: 64px;
+}
+
+.container{
+    width:400px;
+    margin:auto;
+}
+
+video{
+   width:500px;  
+   border:5px solid black;
+} 
+
+.scene{
+   width:200px;
+   height:200px;
+   display:inline-block;
+   border-radius:10px;
+   background-size:contain;
+   border:2px solid black;
+   margin:auto;
+   margin:20px;
+   position:relative;
+}
+#trailer{
+   background-image:url('trailer.png');
+}
+#projectile{
+  background-image:url('projectile.png');
+}
+a{
+   font-family:'Boogaloo', cursive;
+   text-decoration:none;
+   font-size:28px;
+   color:black;
+   background-color:white;
+   padding:5px;
+   border:2px solid black;
+}
+a:hover{
+   background-color:midnightblue;
+   text-decoration:underline;
+   color:white;
+   margin:auto;
+   text-align:top;
+}
+  
+#pendulum{
+  background-image:url('pendulum.png');
+}
+
+#kite {
+  background-image:url('kite.png');
+}
+
+a {
+  display: block;
+}
